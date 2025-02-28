@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назва категорії"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть назву категорії"
+        android:inputType="text"
+        android:textColor="#333"
+        android:textColorHint="#999"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/colorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Колір категорії"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:id="@+id/colorPickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вибрати колір"
+        android:textSize="16sp"
+        android:textColor="#333"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/saveCategoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Зберегти категорію"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
